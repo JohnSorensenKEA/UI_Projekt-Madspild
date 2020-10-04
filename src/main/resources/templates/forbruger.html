@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Forbruger</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
+</head>
+<body class="body-format">
+<div class="row">
+    <div class="navigation-box">
+        <a href="/"><p class="logo">Danmark mod Madspild</p></a>
+        <p class="categori-line">
+            <a href="/forbruger"><span class="categori-hightlight">Forbruger</span></a>
+            <a href="/virksomhed"><span class="categori">Virksomhed</span></a>
+            <a href="/organisationer"><span class="categori">Organisationer</span></a>
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm"></div>
+    <div class="col-lg-9">
+        <div class="content-body">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h1 class="site-title">FORBRUGER</h1>
+                    <div id="paragraph-section">
+                        <h2 class="headline">Hvad kan du gøre?</h2>
+                        <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna augue,
+                            tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non lacus lacinia auctor sed
+                            in neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                            himenaeos. Integer tempor a ugue vulputate nibh consectetur suscipit. Curabitur at placerat
+                            arcu. Nam enim massa, hendrerit sed sapien vel, porta interdum ipsum. Aenean bibendum bibendum
+                            lorem a blandit. In hac habitass e platea dictumst. Curabitur tincidunt est at turpis</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <form id="calculator-box" action="/post" method="post">
+                        <p id="calculator-title">Madspilds udregner</p>
+                        <label id="faktor-label" for="faktor">Faktor</label><br>
+                        <input type="text" name="faktor" id="faktor"><br>
+                        <span id="calculator-answer-text">Svar:</span><span id="calculator-answer" th:text="${answer}"></span><br>
+                        <input id="calculator-button" type="submit" value="Udregn">
+                        <a id="calculator-questionmark-link" title="Indtast i boksen og udregn svaret"><span id="calculator-questionmark">?</span></a>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="fakta-container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="fakta-box">
+                                <img class="fakta-figure" src="Figur-1.png" alt="Figur-1"><br>
+                                <p class="fakta-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                    magna augue, tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non
+                                    lacus lacinia auctor sed in neque. Class aptent taciti sociosqu ad litora torquent
+                                    per conubia nostra, per inceptos himenaeos. Integer.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="fakta-box">
+                                <img class="fakta-figure" src="Figur-2.png" alt="Figur-2"><br>
+                                <p class="fakta-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                    magna augue, tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non
+                                    lacus lacinia auctor sed in neque. Class aptent taciti sociosqu ad litora torquent
+                                    per conubia nostra, per inceptos himenaeos. Integer.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="fakta-box">
+                                <img class="fakta-figure" src="Figur-3.png" alt="Figur-3"><br>
+                                <p class="fakta-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                    magna augue, tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non
+                                    lacus lacinia auctor sed in neque. Class aptent taciti sociosqu ad litora torquent
+                                    per conubia nostra, per inceptos himenaeos. Integer.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="indented-section">
+                <div class="row">
+                <div class="col">
+                    <h2 class="headline">Madplan</h2>
+                    <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna augue,
+                        tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non lacus lacinia auctor sed
+                        in neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                        himenaeos. Integer tempor augue vulputate nibh consectetur suscipit. Curabitur at placerat arcu.
+                        Nam enim massa, hendrerit sed sapien vel, porta interdum ipsum. Aenean bibendum bibendum lorem
+                        a blandit. In hac habitasse platea dictumst. Curabitur tincidunt est at turpis suscipit, quis
+                        commodo diam tincidunt. Vestibulum sagittis tincidunt nulla, a commodo erat. Cras blandit dolor
+                        in nisl lacinia porttitor. Donec vitae leo et quam euismod egestas. Cras nec facilisis magna.
+                        Curabitur pellentesque sem vel leo sollicitudin, ac rutrum purus vehicula.</p>
+                    <div>
+                        <a class="link-button-small">Læs Mere</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h2 class="headline">Indkøb</h2>
+                    <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna augue,
+                        tempor commodo velit sed, sagittis varius dolor. Nulla vitae eros non lacus lacinia auctor sed
+                        in neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                        himenaeos. Integer tempor augue vulputate nibh consectetur suscipit. Curabitur at placerat arcu.
+                        Nam enim massa, hendrerit sed sapien vel, porta interdum ipsum. Aenean bibendum bibendum lorem
+                        a blandit. In hac habitasse platea dictumst. Curabitur tincidunt est at turpis suscipit, quis
+                        commodo diam tincidunt. Vestibulum sagittis tincidunt nulla, a commodo erat. Cras blandit dolor
+                        in nisl lacinia porttitor. Donec vitae leo et quam euismod egestas. Cras nec facilisis magna.
+                        Curabitur pellentesque sem vel leo sollicitudin, ac rutrum purus vehicula.</p>
+                    <div>
+                        <a class="link-button-small">Læs Mere</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="indented-section">
+                <h2 class="headline">Overskrift</h2>
+                <div class="food-section">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://voresmad.dk/">
+                                <div class="food-box">
+                                    <img class="food-picture" src="Food-1.png" alt="Food-1">
+                                    <p class="food-text">Rester</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://voresmad.dk/">
+                                <div class="food-box">
+                                    <img class="food-picture" src="Food-2.png" alt="Food-2">
+                                    <p class="food-text">Sammenkogt</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://voresmad.dk/">
+                                <div class="food-box">
+                                    <img class="food-picture" src="Food-3.png" alt="Food-3">
+                                    <p class="food-text">Brug alt</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="col-sm"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

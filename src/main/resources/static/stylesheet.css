@@ -1,0 +1,231 @@
+.graf-container{
+    width: 100%;
+
+}
+
+.graf-picture{
+    width: 100%;
+    padding: 0;
+    height: 15em;
+}
+
+.graf-border{
+    border: solid lightgrey;
+    padding: 5px;
+
+}
+
+.graf-border-long{
+    border: solid lightgrey;
+    padding: 18px;
+}
+
+.box{
+    margin: 10px;
+
+}
+.p2{
+    font-family: Cambria;
+    color: green;
+    font-weight: bold;
+}
+.body-format{
+    background-color: #e5e5e5;
+}
+.content-body{
+    background-color: white;
+    padding: 30px;
+}
+.site-title{
+    border: solid;
+    border-color: black;
+    border-width:0 0 4px 0;
+    margin: 10px;
+    padding: 3px;
+    width: 260px;
+    color: #A3DBAC;
+    font-family: Arial;
+}
+.logo{
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    font-size: 25px;
+}
+.categori-line{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.categori{
+    margin: 15px 45px 15px 45px;
+    color: black;
+}
+.categori-hightlight{
+    margin: 15px 45px 15px 45px;
+    font-weight: bold;
+    color: black;
+}
+.navigation-box{
+    background-color: white;
+    width: 100%;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: #bfbfbf;
+    padding-bottom: 5px;
+}
+.headline{
+    font-family: Cambria;
+}
+.text-normal{
+    font-family: Cambria;
+}
+#calculator-box{
+    padding: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: gray;
+    margin: 30px 30px 30px 120px;
+}
+#calculator-title{
+    text-align: center;
+}
+#calculator-answer{
+    margin: 20px 5px 20px 5px;
+}
+#calculator-answer-text{
+    margin: 20px 5px 20px 0;
+}
+#calculator-button{
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #A3DBAC;
+    font-weight: bold;
+    color: #262626;
+}
+#calculator-questionmark{
+    background-color: #ffff74;
+    border-radius: 30px;
+    padding: 0 7px 0 7px;
+    border: solid;
+    border-color: #818181;
+    border-width: 1px;
+    margin-left: 73%;
+}
+#calculator-questionmark-link{
+
+}
+#faktor{
+    margin-bottom: 15px;
+}
+#faktor-label{
+    margin: 0;
+}
+.fakta-box{
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+}
+.fakta-figure{
+    width: 30%;
+    margin: 35% 35% 5%;
+    padding: 0;
+    opacity: 90%;
+}
+.fakta-text{
+    font-size: 12px;
+    text-align: center;
+    font-family: Cambria;
+}
+.fakta-container{
+    width: 60%;
+    margin-left: 20%;
+}
+.link-button-small{
+    background-color: #d1c0fd;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 15px 5px 15px;
+    font-family: Cambria;
+    margin: 0;
+}
+.food-box{
+    border-radius: 10px;
+    background-color: #A3DBAC;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.food-picture{
+    width: 100%;
+}
+.food-section{
+    padding: 5px;
+    width: 100%;
+}
+.food-text{
+    font-family: Cambria;
+    font-size: 35px;
+    margin: 10px;
+    color: black;
+}
+.indented-section{
+    margin: 0 20px 0 20px;
+}
+#paragraph-section{
+    margin-left: 20px;
+}
+.buttomCenter{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.OverskriftPadding{
+    padding-top: 20px;
+}
+.text-normal-center{
+    font-family: Cambria;
+    text-align: center;
+}
+#color-box-red{
+    border-radius: 40px;
+    background-color: #fa7e7e;
+    padding: 20px 0 50px 0;
+    margin: 0 5% 0 5%;
+
+}
+#color-box-yellow{
+    border-radius: 40px;
+    background-color: #ffff69;
+    padding: 20px 0 50px 0;
+    margin: 0 5% 0 5%;
+}
+#color-box-green{
+    border-radius: 40px;
+    background-color: #8ddb67;
+    padding: 20px 0 50px 0;
+    margin: 0 5% 0 5%;
+}
+.color-list{
+    margin: 0 15% 0 15%;
+    width: 70%;
+    font-size: 20px;
+}
+.color-title{
+    text-align: center;
+    font-size: 40px;
+}
+.color-container{
+    width: 80%;
+    margin-left: 10%;
+}
+.col-picture{
+    width: 100%;
+    margin: 40px 0 20px 0;
+    padding: 0;
+}
+.text-normal-right{
+    font-family: Cambria;
+    text-align: right;
+}
